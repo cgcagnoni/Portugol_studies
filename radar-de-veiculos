@@ -1,13 +1,9 @@
 Algoritmo "multas"
-//estudo em portugol com finalidade de multar gente sem noção na estrada hehe
 
 Var
-//declaracao de variaveis
 velocidadeVeiculo, velocidadeLeve, velocidadeMedia, velocidadeGrave, velocidadeGravissima: real
 
 Inicio
-//faz de conta que estamos no minhocão(São Paulo/SP), limite de 50km/h
-//valores fictícios!
 velocidadeLeve <- 50*1.1
 velocidadeMedia <- 70
 velocidadeGrave <- 90
