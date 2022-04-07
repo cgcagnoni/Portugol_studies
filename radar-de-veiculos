@@ -1,0 +1,37 @@
+Algoritmo "multas"
+//estudo em portugol com finalidade de multar gente sem noção na estrada hehe
+
+Var
+//declaracao de variaveis
+velocidadeVeiculo, velocidadeLeve, velocidadeMedia, velocidadeGrave, velocidadeGravissima: real
+
+Inicio
+//faz de conta que estamos no minhocão(São Paulo/SP), limite de 50km/h
+//valores fictícios!
+velocidadeLeve <- 50*1.1
+velocidadeMedia <- 70
+velocidadeGrave <- 90
+velocidadeGravissima <- 110
+
+escreva ("Informe a velocidade que o veículo passou no radar: ")
+leia (velocidadeVeiculo)
+
+Se velocidadeVeiculo <= velocidadeLeve entao
+Escreva ("Isento.")
+senao
+se velocidadeVeiculo <= velocidadeMedia entao
+escreva ("3 pontos na carteira.")
+senao
+se velocidadeVeiculo <= velocidadeGrave entao
+escreva ("4 pontos na carteira.")
+senao //aqui é duro, hein haha
+se velocidadeVeiculo <= velocidadeGravissima entao
+escreva ("5 pontos na carteira.")
+senao
+escreva ("7 pontos na carteira.")
+fimse
+fimse
+fimse
+fimse
+
+Fimalgoritmo
