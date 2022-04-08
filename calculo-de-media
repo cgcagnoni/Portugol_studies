@@ -1,0 +1,23 @@
+Algoritmo "Condicionais"
+Var
+   nota1, nota2, nota3, media: real
+Inicio
+      escreva ("Digite a primeira nota: ")
+      leia (nota1)
+      escreva ("Digite a segunda nota: ")
+      leia (nota2)
+      escreva ("Digite a terceira nota: ")
+      leia (nota3)
+      media <- (nota1 + nota2 + nota3)/3
+      
+      se media >= 7 entao
+          escreva ("Sua média foi ", media, ". Você está aprovado.")
+      senao
+           se media < 5 entao
+              escreva ("Sua média foi ", media, ". Você está reprovado.")
+           senao
+              escreva ("Sua média foi ", media, ". Você está de recuperação.")
+           fimse
+      fimse
+      
+Fimalgoritmo
