@@ -20,7 +20,7 @@ escreva ("3 pontos na carteira.")
 senao
 se velocidadeVeiculo <= velocidadeGrave entao
 escreva ("4 pontos na carteira.")
-senao //aqui é duro, hein haha
+senao 
 se velocidadeVeiculo <= velocidadeGravissima entao
 escreva ("5 pontos na carteira.")
 senao
