@@ -1,0 +1,20 @@
+Algoritmo "calculadora de múltiplo"
+
+Var
+x: inteiro
+y: inteiro
+
+Inicio
+escreva ("Informe o maior número: ")
+leia (x)
+escreva ("Você gostaria de saber se o número ", x, " é múltiplo de (informe o número menor): ")
+leia (y)
+
+se x mod y = 0 entao
+escreva (x, " é múltiplo de ", y)
+senao
+escreva (x, " não é múltiplo de ", y)
+fimse
+
+
+Fimalgoritmo
