@@ -1,0 +1,18 @@
+Algoritmo "DIV"
+
+Var
+x, y: inteiro
+w: real
+// o w foi declarado como real pq divisão só se faz com real
+
+Inicio
+escreva ("Informe o dividendo: ")
+leia (x)
+escreva ("Informe o divisor: ")
+leia (y)
+
+w <- x div y
+escreva ("O valor arredondado da sua divisão é ", w, ".")
+
+
+Fimalgoritmo
