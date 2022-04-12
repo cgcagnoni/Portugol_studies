@@ -1,0 +1,15 @@
+Algoritmo "0 a 10 - repita"
+
+Var
+i: inteiro
+
+Inicio
+i <- 0
+
+repita
+escreval (i)
+i<- i +1
+até i > 10
+
+
+Fimalgoritmo
