@@ -1,0 +1,18 @@
+Algoritmo "0 a 10 - para"
+
+Var
+i: inteiro
+
+Inicio
+
+para i de 0 ate 10 faca
+     escreval (i)
+fimpara
+     
+//bastante simples de usar
+//diz de onde quer começar e até onde quer ir
+//pode colocar no final, caso queira uma checagem a mais:
+//se i = 6, escreval... se quiser que pare em 6
+//aí escreve interrompa
+
+Fimalgoritmo
