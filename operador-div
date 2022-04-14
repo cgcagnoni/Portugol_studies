@@ -3,7 +3,6 @@ Algoritmo "DIV"
 Var
 x, y: inteiro
 w: real
-// o w foi declarado como real pq divisão só se faz com real
 
 Inicio
 escreva ("Informe o dividendo: ")
@@ -12,7 +11,8 @@ escreva ("Informe o divisor: ")
 leia (y)
 
 w <- x div y
-escreva ("O valor arredondado da sua divisão é ", w, ".")
-
+escreval ("O resultado da sua divisão é ", w, ".")
+escreval ("")
+escreval ("Obs: Se o resultado da sua divisão contiver casas decimais, atente-se que o valor apresentado está arredondado.")
 
 Fimalgoritmo
