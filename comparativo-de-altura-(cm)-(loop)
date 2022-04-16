@@ -1,0 +1,30 @@
+Algoritmo "comparativo de altura (cm)"
+
+Var
+alturaMarcelo : real
+crescimentoAnualMarcelo : real
+alturaJoao : real
+crescimentoAnualJoao : real
+idade : real
+
+
+Inicio
+
+alturaMarcelo <- 120
+crescimentoAnualMarcelo <- 5
+alturaJoao <- 105
+crescimentoAnualJoao <- 7
+idade <- 8
+
+      enquanto alturaMarcelo >= alturaJoao faca
+      alturaMarcelo <- alturaMarcelo + crescimentoAnualMarcelo
+      alturaJoao <- alturaJoao + crescimentoAnualJoao
+      idade <- idade + 1
+      fimenquanto
+
+escreva ("João ficou mais alto que Marcelo com ", idade, " anos.")
+escreva ("João ficou com ", alturaJoao, "cm")
+escreva (" e Marcelo ficou com", alturaMarcelo, "cm")
+
+
+Fimalgoritmo
